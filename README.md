@@ -2,6 +2,7 @@
 A web-based application that replicates real interview scenarios using artificial intelligence. It streamlines candidate evaluation by recommending domain-specific questions, transcribing spoken answers locally, and scoring them against predefined responses.
 
 <h2>🧩 Components</h2>
+
 Frontend: Developed with React.js and Vite.
 
 Backend (Node.js): REST API built with Express.
@@ -31,6 +32,7 @@ npm install
 npm run dev 
 ```
 <h2>🧠 Features</h2>
+
 Client
 
 * Google OAuth login
