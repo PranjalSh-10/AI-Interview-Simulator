@@ -1,2 +1,67 @@
 # AI-Interview-Simulator
-AI Interview Simulator is a web-based application designed to simulate interview scenarios, it provides users with dynamic, AI-driven interview sessions, evaluation of responses through NLP algorithms, and offers pdf report to improve future performance. The project showcases expertise in natural language processing, local model integration (e.g., Whisper), frontend/backend development, and applied AI in education and career readiness.
+A web-based application that replicates real interview scenarios using artificial intelligence. It streamlines candidate evaluation by recommending domain-specific questions, transcribing spoken answers locally, and scoring them against predefined responses.
+
+##🧩 Components
+Frontend: Developed with React.js and Vite.
+
+Backend (Node.js): REST API built with Express.
+
+Backend (Flask): Python server integrating Whisper locally for audio transcription and response evaluation.
+
+##🚀 Getting Started
+
+1. Open the .env files and fill in the required environment variables according to your application's configuration requirements.
+
+2. Flask Server
+```bash
+cd Flask
+pip install -r requirements.txt
+python app.py
+```
+3. Node Server
+```bash
+cd node
+npm install
+node index.js
+```
+4. React Frontend
+```bash
+cd client/interviewPro
+npm install
+npm run dev 
+```
+##🧠 Features
+
+Client
+
+*Google OAuth login
+*Category-based question display
+*Result and report visualization
+
+Node.js Backend
+
+*Auth & session handling
+*Queue and audio upload endpoints
+*JWT protection
+
+Flask Backend
+
+*Local Whisper-based STT
+*Cosine similarity scoring
+*Transcription & evaluation APIs
+
+##🛠️ Tech Stack
+
+Frontend: React.js, Vite, CSS
+
+Backend: Node.js (Express), Python (Flask)
+
+Local ML: Whisper, Cosine similarity, TF-TDF
+
+Other Tools: RabbitMQ, JWT, Google OAuth
+
+##👨‍💻 Team
+
+* Pranjal Sharma
+* Rachit Kumar Choudhary
+
