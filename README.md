@@ -1,14 +1,14 @@
 # AI-Interview-Simulator
 A web-based application that replicates real interview scenarios using artificial intelligence. It streamlines candidate evaluation by recommending domain-specific questions, transcribing spoken answers locally, and scoring them against predefined responses.
 
-##🧩 Components
+🧩## Components
 Frontend: Developed with React.js and Vite.
 
 Backend (Node.js): REST API built with Express.
 
 Backend (Flask): Python server integrating Whisper locally for audio transcription and response evaluation.
 
-##🚀 Getting Started
+🚀## Getting Started
 
 1. Open the .env files and fill in the required environment variables according to your application's configuration requirements.
 
@@ -30,27 +30,26 @@ cd client/interviewPro
 npm install
 npm run dev 
 ```
-##🧠 Features
-
+🧠## Features
 Client
 
-*Google OAuth login
-*Category-based question display
-*Result and report visualization
+* Google OAuth login
+* Category-based question display
+* Result and report visualization
 
 Node.js Backend
 
-*Auth & session handling
-*Queue and audio upload endpoints
-*JWT protection
+* Auth & session handling
+* Queue and audio upload endpoints
+* JWT protection
 
 Flask Backend
 
-*Local Whisper-based STT
-*Cosine similarity scoring
-*Transcription & evaluation APIs
+* Local Whisper-based STT
+* Cosine similarity scoring
+* Transcription & evaluation APIs
 
-##🛠️ Tech Stack
+🛠️## Tech Stack
 
 Frontend: React.js, Vite, CSS
 
@@ -60,7 +59,7 @@ Local ML: Whisper, Cosine similarity, TF-TDF
 
 Other Tools: RabbitMQ, JWT, Google OAuth
 
-##👨‍💻 Team
+👨‍💻## Team
 
 * Pranjal Sharma
 * Rachit Kumar Choudhary
